@@ -21,6 +21,31 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
+## Enviornment Setup
+Install NodeJS https://nodejs.org/en/
+
+In your terminal, type:
+```sh
+node -v
+```
+if a version number like *vXX.XX.X* appears then you’ve installed it
+
+Then run: 
+```sh
+npm install -g @vue/cli
+```
+
+Then to install any project dependencies go into the project folder (cloned repo) and run:
+```sh
+npm install
+```
+
+Lastly, to insure you have Bulma installed, run:
+```sh
+npm install bulma --save
+npm install -g sass
+```
+
 ## Project Setup
 
 ```sh
