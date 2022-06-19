@@ -6,13 +6,13 @@ import './../../node_modules/Bulma/CSS/bulma.css';
     <!-- 
         https://bulma.io/documentation/components/navbar/
      -->
-    <nav class="navbar is-black">
+    <nav class="navbar is-fixed-top">
 
 
         <div class="navbar-brand">
             <!-- Note: must add 'https://' otherwise it assumes you are going to page within the website -->
             <a class="level" href="https://example.com">
-                <img src="https://mindbodymoms.com/wp-content/uploads/2018/06/Your-Logo-here.png" alt="Aero Logo" width="45" height="15">
+                <img src="src/assets/Logos/121777091_331812758119005_4363361412390698990_n-removebg-preview.png" alt="Aero Logo" width="45" height="15">
             </a>
         </div>
 
@@ -36,6 +36,8 @@ import './../../node_modules/Bulma/CSS/bulma.css';
 
 <style scoped>
 .navbar {
+    /*sets the transparency*/
+    background-color: rgba(0, 0, 0, 0.5); 
     flex:1;
     display: flex;
     align-content: center;
@@ -45,5 +47,15 @@ import './../../node_modules/Bulma/CSS/bulma.css';
 .navbar-menu {
     flex-grow: initial;
     flex-shrink: initial;
+}
+
+.navbar-item{
+    color: #fff;
+}
+
+/* On Hover navbar-item class element -- changes background color of item container and txt color */
+.navbar-item:hover{
+    background-color: #fff !important;
+    color: #000 !important;
 }
 </style>
