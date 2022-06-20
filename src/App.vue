@@ -19,7 +19,7 @@ import NavBar from './components/NavBar.vue';
 
       <div class="card-image">
         <figure class="image is-2by1 level">
-          <img src="src\assets\Design Pics\Drone\7_0030.png" alt="Placeholder image" width="1280" height="720">
+          <img src="src\assets\Design Pics\Drone\7_0030.png" alt="Drone Image" width="1280" height="720">
 
           <div id="title-overlay-pad" class="is-overlay level-right">
             <div id="title-overlay-background" class="has-text-centered">
@@ -33,6 +33,35 @@ import NavBar from './components/NavBar.vue';
     </div>
 
 
+  </section>
+
+  <section class="section level">
+    <figure class="image is-2by1 level-item level">
+      <img src="src\assets\Design Pics\Batery Swap Station\18_0017.png" alt="Drone Station Image">
+      <div class="is-overlay has-text-centered">
+        <div>
+          <h1 class="title">ABOUT</h1>
+        </div>
+        <div>
+          <h2 class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Nihil voluptate reprehenderit officia quod maxime praesentium excepturi similique 
+          repellat quam dolorem, illum voluptatibus autem recusandae iste corporis distinctio 
+          ad, enim hic.</h2>
+        </div>
+        <div>
+          <h2 class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Nihil voluptate reprehenderit officia quod maxime praesentium excepturi similique 
+          repellat quam dolorem, illum voluptatibus autem recusandae iste corporis distinctio 
+          ad, enim hic.</h2>
+        </div>
+        <div>
+          <h2 class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Nihil voluptate reprehenderit officia quod maxime praesentium excepturi similique 
+          repellat quam dolorem, illum voluptatibus autem recusandae iste corporis distinctio 
+          ad, enim hic.</h2>
+        </div>
+      </div>
+    </figure>
   </section>
 </template>
 
