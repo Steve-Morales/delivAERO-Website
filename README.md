@@ -1,6 +1,7 @@
 # AeroWebsite
 
 This template should help get you started developing with Vue 3 in Vite.
+*Note: it's not made with mobile in mind!*
 
 ## Recommended IDE Setup
 

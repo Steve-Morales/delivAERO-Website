@@ -14,33 +14,20 @@ import NavBar from './components/NavBar.vue';
 
   <section class="section">
 
+<!-- to center columns, the parent has to be the image which is impossible -->
     <div class="card">
 
       <div class="card-image">
-        <figure class="image is-2by1">
+        <figure class="image is-2by1 level">
           <img src="src\assets\Design Pics\Drone\7_0030.png" alt="Placeholder image" width="1280" height="720">
-        </figure>
-      </div>
 
-      <div class="card-content is-overlay">
-          <!-- some content to be placed over the image -->
-          <div class="columns is-centered">
-            <div class="column is-6">
-              <!-- nothing goes here, text over image -->
-            </div>
-            <!-- 
-              centering text
-              https://stackoverflow.com/questions/50398678/center-content-in-bulma-column#:~:text=This%20will%20make,class%3D%22is%2Dcentered%22 
-              -->
-            <div class="column is-4 has-text-centered bulma-overlay-mixin">
-              <h5 id="title-home-page" class="is-centered is-white">
-                delivAERO
-              </h5>
-              <h1>
-                Revolutionizing the World's Delivery Infrastructure
-              </h1>
+          <div id="title-overlay-pad" class="is-overlay level-right">
+            <div id="title-overlay-background" class="has-text-centered">
+              <p id="title-home-page">delivAERO</p>
+              <p id="tagline-home-page">Revolutionizing the World's Delivery Infrastructure</p>
             </div>
           </div>
+        </figure>
       </div>
 
     </div>
@@ -50,9 +37,24 @@ import NavBar from './components/NavBar.vue';
 </template>
 
 <style scoped>
+#title-overlay-pad{
+  padding-right: 5%;
+  padding-bottom: 17%;
+}
+
+#title-overlay-background{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.25em;
+}
+
+#tagline-home-page{
+  color: white;
+}
+
 #title-home-page{
   font-family: 'Audiowide';
   font-size: 25pt;
+  color: white;
 }
 
 .bulma-overlay-mixin {
