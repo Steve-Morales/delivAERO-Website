@@ -4,18 +4,20 @@ import './../../node_modules/Bulma/CSS/bulma.css';
 
 <template>
     <footer class="footer">
-        <div class="columns level">
-            <div class="column level-item">
-                <img class="image is-64x64" src="src\assets\Logos\delivAERO_Logo-removebg.png" alt="logo">
-            </div>
-
-            <div class="column level-item">
-                <a href="https://www.linkedin.com/company/delivaero/">
+        <div class="columns level is-centered">
+            <div class="column level-item is-centered level">
+                <a class="level-item" href="https://www.linkedin.com/company/delivaero/">
                     <img class="image is-64x64" src="https://openvisualfx.com/wp-content/uploads/2019/10/linkedin-icon-logo-png-transparent.png" alt="logo">
                 </a>
             </div>
 
-            <div class="column is-white level-item">
+            <div class="column level-item is-centered level">
+                <div class="level-item">
+                    <img class="image is-64x64" src="src\assets\Logos\delivAERO_Logo.png" alt="logo">
+                </div>
+            </div>
+
+            <div class="column is-white level-item has-text-centered">
                 <h2>delivaero@ucsd.edu</h2>
                 <h2><br>9500 Gilman Dr,<br>La Jolla, California 92093</h2>
             </div>
@@ -25,7 +27,7 @@ import './../../node_modules/Bulma/CSS/bulma.css';
 
 <style scoped>
 .footer{
-    background-color: black;
+    background-color: rgb(25, 25, 25);
 }
 
 .is-white{
