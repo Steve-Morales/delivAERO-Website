@@ -141,7 +141,7 @@ let batterySwapSlides = [
         <div>
           <img class="image is-128x128" src="https://purepaktechnology.com/wp-content/uploads/2019/01/our-mission-icon.png" alt="msg icon">
         </div>
-        <hr>
+        <hr class="is-inline-block">
         <h1 class="title is-2 white-text">OUR MISSION</h1>
         <br>
         <div>
@@ -153,7 +153,7 @@ let batterySwapSlides = [
         <div>
           <img class="image is-128x128" src="https://cdn2.iconfinder.com/data/icons/finance-and-banking-3-1/64/133-512.png" alt="msg icon">
         </div>
-        <hr>
+        <hr class="is-inline-block">
         <h1 class="title is-2 white-text">OUR VISION</h1>
         <br>
         <div>
@@ -165,7 +165,7 @@ let batterySwapSlides = [
         <div>
           <img class="image is-128x128" src="https://cdn4.iconfinder.com/data/icons/future-of-shopping-color/64/mobile-technology-circuit-digital-futuristic-512.png" alt="msg icon">
         </div>
-        <hr>
+        <hr class="is-inline-block">
         <h1 class="title is-2 white-text">TECHNOLOGY</h1>
         <br>
         <div>
