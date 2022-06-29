@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import './../../node_modules/Bulma/CSS/bulma.css';
+// import './../../node_modules/Bulma/CSS/bulma.css';
 </script>
 
 <template>
@@ -26,6 +26,7 @@ import './../../node_modules/Bulma/CSS/bulma.css';
 </template>
 
 <style scoped>
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 .footer{
     background-color: rgb(25, 25, 25);
 }

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import './../../node_modules/Bulma/CSS/bulma.css';
+// import './../../node_modules/Bulma/CSS/bulma.css';
 
 // https://antoniandre.github.io/vueper-slides/?ref=madewithvuejs.com
 import { VueperSlides, VueperSlide } from 'vueperslides';
@@ -528,6 +528,7 @@ let batterySwapSlides = [
 </template>
 
 <style scoped>
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 hr{
   width: 50%;
 }

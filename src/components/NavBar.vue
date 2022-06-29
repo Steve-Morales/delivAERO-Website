@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import './../../node_modules/Bulma/CSS/bulma.css';
+// import './../../node_modules/Bulma/CSS/bulma.css';
+export {}
 </script>
 
 <template>
@@ -35,6 +36,7 @@ import './../../node_modules/Bulma/CSS/bulma.css';
 </template>
 
 <style scoped>
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 .navbar {
     /*sets the transparency*/
     background-color: rgba(0, 0, 0, 0.5); 

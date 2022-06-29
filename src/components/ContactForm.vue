@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import './../../node_modules/Bulma/CSS/bulma.css';
+// import './../../node_modules/Bulma/CSS/bulma.css';
 const phone = ''; // this will hold the value of the phone number 
+export {phone}
 </script>
 
 <template>
@@ -68,6 +69,7 @@ const phone = ''; // this will hold the value of the phone number
 </template>
 
 <style scoped>
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 .label{
     color: white;
 }
