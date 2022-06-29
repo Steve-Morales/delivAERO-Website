@@ -5,7 +5,11 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    // reason for the two options below
+    // https://stackoverflow.com/questions/49258849/could-not-find-a-declaration-file-for-module-vue-xxx
+    "allowJs": true,
+    "noImplicitAny": false
   },
 
   "references": [

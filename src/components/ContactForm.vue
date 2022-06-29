@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import './../../node_modules/Bulma/CSS/bulma.css';
+const phone = ''; // this will hold the value of the phone number 
 </script>
 
 <template>
@@ -45,7 +46,7 @@ import './../../node_modules/Bulma/CSS/bulma.css';
             <div class="column">
                 <label class="label">Phone</label>
                 <!-- https://www.npmjs.com/package/vue3-tel-input -->
-                <vue-tel-input v-model="phone"></vue-tel-input>
+                <vue-tel-input v-model.number="phone"></vue-tel-input>
                 
             </div>
         </div>
