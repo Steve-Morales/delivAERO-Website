@@ -6,7 +6,17 @@ import { VueperSlides, VueperSlide } from 'vueperslides';
 import 'vueperslides/dist/vueperslides.css';
 
 import { defineExpose, ref } from 'vue'
-import img from '@/assets/Design Pics/Batery Swap Station/18_0017.png';
+
+/* import assets */
+import droneImg               from '@/assets/Design Pics/Drone/7_0030.png';
+import droneStationImg        from '@/assets/Design Pics/Batery Swap Station/18_0017.png';
+import droneFastImg           from '@/assets/Design Pics/Drone/6_0030.png';
+import droneReliableImg       from '@/assets/Design Pics/Drone/6_0030.png';
+import droneAffordableImg     from '@/assets/Design Pics/Drone/8_0030.png';
+import droneChargeImg         from '@/assets/Design Pics/Batery Swap Station/24_0017.png';
+import droneCleanImg          from '@/assets/Design Pics/Batery Swap Station/BatterySwapStation.jpg';
+import droneAutoImg           from '@/assets/Design Pics/Batery Swap Station/22_0017.png';
+
 let parallax = 1
 let parallaxFixedContent = false
 let slides = ([
@@ -71,16 +81,7 @@ let batterySwapSlides = [
         // Other slides.
 ]
 
-// import assets
 
-// import droneImg from './../assets/Design Pics/Drone/7_0030.png';
-// import droneStationImg from './../assets/Design Pics/Batery Swap Station/18_0017.png';
-// import droneFastImg from './../assets/Design Pics/Drone/6_0030.png';
-// import droneReliableImg from './../assets/Design Pics/Drone/6_0030.png';
-// import droneAffordableImg from './../assets/Design Pics/Drone/8_0030.png';
-// import droneChargeImg from './../assets/Design Pics/Batery Swap Station/24_0017.png';
-// import droneCleanImg from './../assets/Design Pics/Batery Swap Station/BatterySwapStation.jpg';
-// import droneAutoImg from './../assets/Design Pics/Batery Swap Station/22_0017.png';
 
 
 </script>
@@ -93,7 +94,7 @@ let batterySwapSlides = [
 
       <div class="card-image">
         <figure class="image is-2by1 level">
-          <img src="" alt="Drone Image" width="1280" height="720">
+          <img :src="droneImg" alt="Drone Image" width="1280" height="720">
 
           <div id="title-overlay-pad" class="is-overlay level-right">
             <div id="title-overlay-background" class="has-text-centered">
@@ -111,7 +112,7 @@ let batterySwapSlides = [
 
   <section class="section is-centered">
     <figure class="image is-2by1 level">
-      <img :src="img" alt="Drone Station Image">
+      <img :src="droneStationImg" alt="Drone Station Image">
       <div class="is-overlay has-text-centered">
         <div>
           <p><br></p>
@@ -185,7 +186,7 @@ let batterySwapSlides = [
     <div class="columns">
       <div class="column">
         <figure class="image is-5by4 level">
-          <img class="cover" src="" alt="Drone Fast Image" width="1280" height="720">
+          <img class="cover" :src="droneFastImg" alt="Drone Fast Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
@@ -210,7 +211,7 @@ let batterySwapSlides = [
 
       <div class="column">
         <figure class="image is-5by4 level">
-          <img class="cover" src="" alt="Drone Reliable Image" width="1280" height="720">
+          <img class="cover" :src="droneReliableImg" alt="Drone Reliable Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
@@ -235,7 +236,7 @@ let batterySwapSlides = [
 
       <div class="column">
         <figure class="image is-5by4">
-          <img class="cover" src="" alt="Drone Affordable Image" width="1280" height="720">
+          <img class="cover" :src="droneAffordableImg" alt="Drone Affordable Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
@@ -295,7 +296,7 @@ let batterySwapSlides = [
     <div class="columns">
       <div class="column">
         <figure class="image is-5by4 level">
-          <img class="cover" src="" alt="Drone Charge Image" width="1280" height="720">
+          <img class="cover" :src="droneChargeImg" alt="Drone Charge Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
@@ -322,7 +323,7 @@ let batterySwapSlides = [
 
       <div class="column">
         <figure class="image is-5by4 level">
-          <img class="cover" src="" alt="Drone Clean Image" width="1280" height="720">
+          <img class="cover" :src="droneCleanImg" alt="Drone Clean Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
@@ -349,7 +350,7 @@ let batterySwapSlides = [
 
       <div class="column">
         <figure class="image is-5by4">
-          <img class="cover" src="" alt="Drone Auto Image" width="1280" height="720">
+          <img class="cover" :src="droneAutoImg" alt="Drone Auto Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
