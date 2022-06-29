@@ -6,7 +6,7 @@ import { VueperSlides, VueperSlide } from 'vueperslides';
 import 'vueperslides/dist/vueperslides.css';
 
 import { defineExpose, ref } from 'vue'
-
+import img from '@/assets/Design Pics/Batery Swap Station/18_0017.png';
 let parallax = 1
 let parallaxFixedContent = false
 let slides = ([
@@ -72,8 +72,9 @@ let batterySwapSlides = [
 ]
 
 // import assets
+
 // import droneImg from './../assets/Design Pics/Drone/7_0030.png';
-import droneStationImg from './../assets/Design Pics/Batery Swap Station/18_0017.png';
+// import droneStationImg from './../assets/Design Pics/Batery Swap Station/18_0017.png';
 // import droneFastImg from './../assets/Design Pics/Drone/6_0030.png';
 // import droneReliableImg from './../assets/Design Pics/Drone/6_0030.png';
 // import droneAffordableImg from './../assets/Design Pics/Drone/8_0030.png';
@@ -110,7 +111,7 @@ import droneStationImg from './../assets/Design Pics/Batery Swap Station/18_0017
 
   <section class="section is-centered">
     <figure class="image is-2by1 level">
-      <img :src="require('./../assets/Design Pics/Batery Swap Station/18_0017.png')" alt="Drone Station Image">
+      <img :src="img" alt="Drone Station Image">
       <div class="is-overlay has-text-centered">
         <div>
           <p><br></p>
