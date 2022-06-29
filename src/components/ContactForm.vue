@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import './../../node_modules/Bulma/CSS/bulma.css';
-
-import VuePhoneNumberInput from 'vue-phone-number-input';
-import 'vue-phone-number-input/dist/vue-phone-number-input.css';
 </script>
 
 <template>

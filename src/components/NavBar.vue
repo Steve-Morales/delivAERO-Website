@@ -12,7 +12,7 @@ import './../../node_modules/Bulma/CSS/bulma.css';
         <div class="navbar-brand">
             <!-- Note: must add 'https://' otherwise it assumes you are going to page within the website -->
             <a class="level" href="https://example.com">
-                <img src="src/assets/Logos/121777091_331812758119005_4363361412390698990_n-removebg-preview.png" alt="Aero Logo" width="45" height="15">
+                <img src=".\..\assets\Logos/121777091_331812758119005_4363361412390698990_n-removebg-preview.png" alt="Aero Logo" width="45" height="15">
             </a>
         </div>
 

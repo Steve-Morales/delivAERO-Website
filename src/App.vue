@@ -93,7 +93,7 @@ let batterySwapSlides = [
 
       <div class="card-image">
         <figure class="image is-2by1 level">
-          <img src="src\assets\Design Pics\Drone\7_0030.png" alt="Drone Image" width="1280" height="720">
+          <img src="./assets/Design Pics/Drone/7_0030.png" alt="Drone Image" width="1280" height="720">
 
           <div id="title-overlay-pad" class="is-overlay level-right">
             <div id="title-overlay-background" class="has-text-centered">
@@ -111,7 +111,7 @@ let batterySwapSlides = [
 
   <section class="section is-centered">
     <figure class="image is-2by1 level">
-      <img src="src\assets\Design Pics\Batery Swap Station\18_0017.png" alt="Drone Station Image">
+      <img src=".\assets\Design Pics\Batery Swap Station\18_0017.png" alt="Drone Station Image">
       <div class="is-overlay has-text-centered">
         <div>
           <p><br></p>
@@ -185,7 +185,7 @@ let batterySwapSlides = [
     <div class="columns">
       <div class="column">
         <figure class="image is-5by4 level">
-          <img class="cover" src="src\assets\Design Pics\Drone\27_0030.png" alt="Drone Fast Image" width="1280" height="720">
+          <img class="cover" src=".\assets\Design Pics\Drone\27_0030.png" alt="Drone Fast Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
@@ -210,7 +210,7 @@ let batterySwapSlides = [
 
       <div class="column">
         <figure class="image is-5by4 level">
-          <img class="cover" src="src\assets\Design Pics\Drone\6_0030.png" alt="Drone Reliable Image" width="1280" height="720">
+          <img class="cover" src=".\assets\Design Pics\Drone\6_0030.png" alt="Drone Reliable Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
@@ -235,7 +235,7 @@ let batterySwapSlides = [
 
       <div class="column">
         <figure class="image is-5by4">
-          <img class="cover" src="src\assets\Design Pics\Drone\8_0030.png" alt="Drone Affordable Image" width="1280" height="720">
+          <img class="cover" src=".\assets\Design Pics\Drone\8_0030.png" alt="Drone Affordable Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
@@ -295,7 +295,7 @@ let batterySwapSlides = [
     <div class="columns">
       <div class="column">
         <figure class="image is-5by4 level">
-          <img class="cover" src="src\assets\Design Pics\Batery Swap Station\24_0017.png" alt="Drone Fast Image" width="1280" height="720">
+          <img class="cover" src=".\assets\Design Pics\Batery Swap Station\24_0017.png" alt="Drone Fast Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
@@ -322,7 +322,7 @@ let batterySwapSlides = [
 
       <div class="column">
         <figure class="image is-5by4 level">
-          <img class="cover" src="src\assets\Design Pics\Batery Swap Station\BatterySwapStation.jpg" alt="Drone Reliable Image" width="1280" height="720">
+          <img class="cover" src=".\assets\Design Pics\Batery Swap Station\BatterySwapStation.jpg" alt="Drone Reliable Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
@@ -349,7 +349,7 @@ let batterySwapSlides = [
 
       <div class="column">
         <figure class="image is-5by4">
-          <img class="cover" src="src\assets\Design Pics\Batery Swap Station\22_0017.png" alt="Drone Affordable Image" width="1280" height="720">
+          <img class="cover" src=".\assets\Design Pics\Batery Swap Station\22_0017.png" alt="Drone Affordable Image" width="1280" height="720">
 
           <div class="is-overlay level-item">
             <div id="drone-overlay-padding">
