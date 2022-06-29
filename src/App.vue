@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import './../node_modules/Bulma/CSS/bulma.css';
+import '@/../node_modules/Bulma/CSS/bulma.css';
 
 import NavBar from './components/NavBar.vue';
 import ContactForm from './components/ContactForm.vue'
