@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // import './../../node_modules/Bulma/CSS/bulma.css';
-export {}
+// export {}
 </script>
 
 <template>

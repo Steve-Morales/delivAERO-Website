@@ -9,7 +9,9 @@
     // reason for the two options below
     // https://stackoverflow.com/questions/49258849/could-not-find-a-declaration-file-for-module-vue-xxx
     "allowJs": true,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    // reason for this option https://bobbyhadz.com/blog/typescript-cannot-be-compiled-under-isolatedmodules 
+    "isolatedModules": false
   },
 
   "references": [

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // import './../../node_modules/Bulma/CSS/bulma.css';
 const phone = ''; // this will hold the value of the phone number 
-export {phone}
+// export {phone}
 </script>
 
 <template>
