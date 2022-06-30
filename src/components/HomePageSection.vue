@@ -17,7 +17,6 @@ import droneChargeImg         from '@/assets/Design Pics/Batery Swap Station/24_
 import droneCleanImg          from '@/assets/Design Pics/Batery Swap Station/BatterySwapStation.jpg';
 import droneAutoImg           from '@/assets/Design Pics/Batery Swap Station/22_0017.png';
 import img from '/images/Design Pics/Drone/1_0034.png';
-
 let parallax = 1
 let parallaxFixedContent = false
 let slides = ([
@@ -25,7 +24,7 @@ let slides = ([
           title: 'El Teide Volcano, Spain',
           content: 'Photo by Max Rive',
           // You can also provide a URL for the image.
-          image: '/images/Drone/1_0034.png'
+          image: '/images/Design Pics/Drone/1_0034.png'
         },
         {
           title: 'El Teide Volcano, Spain',
