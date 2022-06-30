@@ -24,7 +24,7 @@ let slides = ([
           title: 'El Teide Volcano, Spain',
           content: 'Photo by Max Rive',
           // You can also provide a URL for the image.
-          image: './src/assets/Design Pics/Drone/1_0034.png'
+          image: '@/assets/Design Pics/Drone/1_0034.png'
         },
         {
           title: 'El Teide Volcano, Spain',
