@@ -16,7 +16,7 @@ import droneAffordableImg     from '@/assets/Design Pics/Drone/8_0030.png';
 import droneChargeImg         from '@/assets/Design Pics/Batery Swap Station/24_0017.png';
 import droneCleanImg          from '@/assets/Design Pics/Batery Swap Station/BatterySwapStation.jpg';
 import droneAutoImg           from '@/assets/Design Pics/Batery Swap Station/22_0017.png';
-import img from '/images/Design Pics/Drone/1_0034.png';
+
 let parallax = 1
 let parallaxFixedContent = false
 let slides = ([
@@ -30,19 +30,19 @@ let slides = ([
           title: 'El Teide Volcano, Spain',
           content: 'Photo by Max Rive',
           // You can also provide a URL for the image.
-          image: './src/assets/Design Pics/Drone/1_0034.png'
+          image: '/images/Design Pics/Drone/1_0034.png'
         },
         {
           title: 'El Teide Volcano, Spain',
           content: 'Photo by Max Rive',
           // You can also provide a URL for the image.
-          image: './src/assets/Design Pics/Drone/1_0034.png'
+          image: '/images/Design Pics/Drone/1_0034.png'
         },
         {
           title: 'El Teide Volcano, Spain',
           content: 'Photo by Max Rive',
           // You can also provide a URL for the image.
-          image: './src/assets/Design Pics/Drone/1_0034.png'
+          image: '/images/Design Pics/Drone/1_0034.png'
         }
         // Other slides.
 ])
@@ -52,31 +52,31 @@ let batterySwapSlides = [
           title: 'El Teide Volcano, Spain',
           content: 'Photo by Max Rive',
           // You can also provide a URL for the image.
-          image: './src/assets/Design Pics/Batery Swap Station/23_0017.png'
+          image: '/images/Design Pics/Batery Swap Station/23_0017.png'
         },
         {
           title: 'El Teide Volcano, Spain',
           content: 'Photo by Max Rive',
           // You can also provide a URL for the image.
-          image: './src/assets/Design Pics/Batery Swap Station/26_0017.png'
+          image: '/images/Design Pics/Batery Swap Station/26_0017.png'
         },
         {
           title: 'El Teide Volcano, Spain',
           content: 'Photo by Max Rive',
           // You can also provide a URL for the image.
-          image: './src/assets/Design Pics/Batery Swap Station/18_0017.png'
+          image: '/images/Design Pics/Batery Swap Station/18_0017.png'
         },
         {
           title: 'El Teide Volcano, Spain',
           content: 'Photo by Max Rive',
           // You can also provide a URL for the image.
-          image: './src/assets/Design Pics/Batery Swap Station/2_0017.png'
+          image: '/images/Design Pics/Batery Swap Station/2_0017.png'
         },
         {
           title: 'El Teide Volcano, Spain',
           content: 'Photo by Max Rive',
           // You can also provide a URL for the image.
-          image: './src/assets/Design Pics/Batery Swap Station/BatterySwapStation.jpg'
+          image: '/images/Design Pics/Batery Swap Station/BatterySwapStation.jpg'
         }
         // Other slides.
 ]
