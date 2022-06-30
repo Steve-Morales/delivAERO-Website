@@ -17,8 +17,6 @@ import droneChargeImg         from '@/assets/Design Pics/Batery Swap Station/24_
 import droneCleanImg          from '@/assets/Design Pics/Batery Swap Station/BatterySwapStation.jpg';
 import droneAutoImg           from '@/assets/Design Pics/Batery Swap Station/22_0017.png';
 
-import imgUrl from './img.png'
-
 let parallax = 1
 let parallaxFixedContent = false
 let slides = ([
