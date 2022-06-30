@@ -12,21 +12,21 @@
 
         <div class="navbar-brand">
             <!-- Note: must add 'https://' otherwise it assumes you are going to page within the website -->
-            <a class="level" href="https://example.com">
+            <a class="level" v-scroll-to="'#'">
                 <img src=".\..\assets\Logos/121777091_331812758119005_4363361412390698990_n-removebg-preview.png" alt="Aero Logo" width="45" height="15">
             </a>
         </div>
 
 
         <div class="navbar-menu">
-
+            <!-- https://vue-scrollto.netlify.app/docs/#under-the-hood -->
             <div class="navbar-start">
-                <a class="navbar-item" href="https://example.com"> Home </a>
-                <a class="navbar-item" href="https://example.com"> About </a>
-                <a class="navbar-item" href="https://example.com"> Drones </a>
-                <a class="navbar-item" href="https://example.com"> Charging Stations </a>
-                <a class="navbar-item" href="https://example.com"> Our Team </a>
-                <a class="navbar-item" href="https://example.com"> Contact </a>
+                <a class="navbar-item" v-scroll-to="'#'"> Home </a>
+                <a class="navbar-item" v-scroll-to="'#'"> About </a>
+                <a class="navbar-item" v-scroll-to="'#'"> Drones </a>
+                <a class="navbar-item" v-scroll-to="'#'"> Charging Stations </a>
+                <a class="navbar-item" v-scroll-to="'#'"> Our Team </a>
+                <a class="navbar-item" v-scroll-to="'#'"> Contact </a>
             </div> <!-- navbar-start -- end -->
 
         </div> <!-- navbar-menu -- end -->
