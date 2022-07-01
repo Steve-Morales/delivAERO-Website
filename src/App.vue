@@ -22,7 +22,7 @@ import HomePageSection from './components/HomePageSection.vue'
   </HomePageSection>
 
   <!-- CONTACT -->
-  <section class="section">
+  <section class="section" id="contactSection">
     <div id="contact-form">
       <ContactForm>
 

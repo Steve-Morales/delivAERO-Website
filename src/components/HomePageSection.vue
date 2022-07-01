@@ -87,7 +87,7 @@ let batterySwapSlides = [
 </script>
 
 <template>
-  <section class="section">
+  <section class="section" id="homeSection">
 
 <!-- to center columns, the parent has to be the image which is impossible -->
     <div class="card">
@@ -109,8 +109,8 @@ let batterySwapSlides = [
 
 
   </section>
-
-  <section class="section is-centered">
+  <!-- ABOUT SECTION -->
+  <section class="section is-centered" id="aboutSection">
     <figure class="image is-2by1 level">
       <img :src="droneStationImg" alt="Drone Station Image">
       <div class="is-overlay has-text-centered">
@@ -136,6 +136,7 @@ let batterySwapSlides = [
     </figure>
   </section>
 
+  <!-- MISSION -->
   <section class="section">
     <div class="columns level">
       <div class="column level-item has-text-centered">
@@ -177,7 +178,7 @@ let batterySwapSlides = [
   </section>
 
   <!-- DRONES SECTION -->
-  <section class="section is-centered">
+  <section class="section is-centered" id="dronesSection">
     <div class="has-text-centered">
       <h1 id="drone-text" class="title is-1">DRONES</h1>
       <p><br></p>
@@ -287,7 +288,7 @@ let batterySwapSlides = [
   </section>
 
   <!-- CHARGING STATIONS -->
-  <section class="section is-centered">
+  <section class="section is-centered" id="chargingStationSection">
     <div class="has-text-centered">
       <h1 id="drone-text" class="title is-1">CHARGING STATIONS</h1>
       <p><br></p>
@@ -402,7 +403,7 @@ let batterySwapSlides = [
   </section>
 
   <!-- OUR TEAM -->
-  <section class="section">
+  <section class="section" id="ourTeamSection">
     <div class="has-text-centered">
       <h1 class="title is-1 white-text">OUR TEAM</h1>
     </div>
