@@ -17,72 +17,73 @@ import droneChargeImg         from '@/assets/Design Pics/Batery Swap Station/24_
 import droneCleanImg          from '@/assets/Design Pics/Batery Swap Station/BatterySwapStation.jpg';
 import droneAutoImg           from '@/assets/Design Pics/Batery Swap Station/22_0017.png';
 
-let parallax = 1
-let parallaxFixedContent = false
 let slides = ([
         {
-          title: 'El Teide Volcano, Spain',
-          content: 'Photo by Max Rive',
+          title: 'Empty Title',
+          content: 'Packing Factory',
           // You can also provide a URL for the image.
-          image: '/images/Design Pics/Drone/1_0034.png'
+          image: '/images/contactless-delivery/contactless-delivery-1.jpg'
         },
         {
-          title: 'El Teide Volcano, Spain',
-          content: 'Photo by Max Rive',
-          // You can also provide a URL for the image.
-          image: '/images/Design Pics/Drone/1_0034.png'
+          title: 'Empty Title',
+          content: 'Loading Packages',
+          image: '/images/contactless-delivery/contactless-delivery-2.png'
         },
         {
-          title: 'El Teide Volcano, Spain',
-          content: 'Photo by Max Rive',
-          // You can also provide a URL for the image.
-          image: '/images/Design Pics/Drone/1_0034.png'
+          title: 'Empty Title',
+          content: 'Leaving Warehouse',
+          image: '/images/Design Pics/Drone/13_0030.png'
         },
         {
-          title: 'El Teide Volcano, Spain',
-          content: 'Photo by Max Rive',
-          // You can also provide a URL for the image.
-          image: '/images/Design Pics/Drone/1_0034.png'
+          title: 'Empty Title',
+          content: 'Zooming Through Neighborhood',
+          image: '/images/Design Pics/Drone/17_0030.png'
+        },
+        {
+          title: 'Empty Title',
+          content: 'Approching Customer',
+          image: '/images/Design Pics/Drone/29_0030.png'
+        },
+        {
+          title: 'Empty Title',
+          content: 'Ariving Destination',
+          image: '/images/Design Pics/Drone/30_0030.png'
+        },
+        {
+          title: 'Empty Title',
+          content: 'Packages Delivered',
+          image: '/images/contactless-delivery/contactless-delivery-7.jpg'
         }
-        // Other slides.
 ])
 
 let batterySwapSlides = [
         {
-          title: 'El Teide Volcano, Spain',
-          content: 'Photo by Max Rive',
+          title: 'Empty Title',
+          content: 'Battery Swap Station',
           // You can also provide a URL for the image.
+          image: '/images/Design Pics/Batery Swap Station/BatterySwapStation.jpg'
+        },
+        {
+          title: 'Empty Title',
+          content: 'Clean Energy Powered',
           image: '/images/Design Pics/Batery Swap Station/23_0017.png'
         },
         {
-          title: 'El Teide Volcano, Spain',
-          content: 'Photo by Max Rive',
-          // You can also provide a URL for the image.
+          title: 'Empty Title',
+          content: 'Supports Infrastructure',
           image: '/images/Design Pics/Batery Swap Station/26_0017.png'
         },
         {
-          title: 'El Teide Volcano, Spain',
-          content: 'Photo by Max Rive',
-          // You can also provide a URL for the image.
+          title: 'Empty Title',
+          content: 'Fully Automated',
           image: '/images/Design Pics/Batery Swap Station/18_0017.png'
         },
         {
-          title: 'El Teide Volcano, Spain',
-          content: 'Photo by Max Rive',
-          // You can also provide a URL for the image.
+          title: 'Empty Title',
+          content: 'Harvests Traffic Energy',
           image: '/images/Design Pics/Batery Swap Station/2_0017.png'
-        },
-        {
-          title: 'El Teide Volcano, Spain',
-          content: 'Photo by Max Rive',
-          // You can also provide a URL for the image.
-          image: '/images/Design Pics/Batery Swap Station/BatterySwapStation.jpg'
         }
-        // Other slides.
 ]
-
-
-
 
 </script>
 
@@ -273,17 +274,30 @@ let batterySwapSlides = [
     </div>
     
     <!-- fix text https://antoniandre.github.io/vueper-slides/?ref=madewithvuejs.com#:~:text=Version%202.2,the%20default%20wrapper -->
-    <vueper-slides ref="myVueperSlides" :parallax="parallax" :parallax-fixed-content="parallaxFixedContent"
+    <!-- Adding `slide-content-outside="bottom"` will move content text outside, but change padding! -->
+    <vueper-slides 
       class="no-shadow"
+      vueperslides--animated
+      autoplay
+      :bullets="false"
       :visible-slides="3"
-      :slide-ratio="1 / 4"
-      :dragging-distance="70">
+      :slide-ratio="1 / 5"
+      :dragging-distance="70"
+      :gap="3"
+      >
       <vueper-slide
         v-for="(slide, i) in slides"
         :key="i"
-        :image="slide.image"
-        :title="slide.title"
-        :content="slide.content" />
+        :image="slide.image">
+        <template #content>
+          <!-- <div class="vueperslide__title">
+            <h1 class="title">{{ slide.title }}</h1>
+          </div> -->
+          <div class="vueperslide__content-wrapper">
+            <h1 class="subtitle contentText">{{ slide.content }}</h1>
+          </div>
+        </template>  
+      </vueper-slide>
     </vueper-slides>
   </section>
 
@@ -309,10 +323,8 @@ let batterySwapSlides = [
                 </div>
 
                 <div>
-                  <h2 id="drone-text" class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  Nihil voluptate reprehenderit officia quod maxime praesentium excepturi similique 
-                  repellat quam dolorem, illum voluptatibus autem recusandae iste corporis distinctio 
-                  ad, enim hic.</h2>
+                  <h2 id="drone-text" class="subtitle">Our advanced charging stations maximize both the delivery and 
+                    battery charging efficiencies by implementing a battery swapping mechanism.</h2>
                 </div>
 
               </div> <!-- overlay background div -->
@@ -336,10 +348,9 @@ let batterySwapSlides = [
                 </div>
 
                 <div>
-                  <h2 id="drone-text" class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  Nihil voluptate reprehenderit officia quod maxime praesentium excepturi similique 
-                  repellat quam dolorem, illum voluptatibus autem recusandae iste corporis distinctio 
-                  ad, enim hic.</h2>
+                  <h2 id="drone-text" class="subtitle">delivAERO's 
+                    charging stations utilize highly efficient solar panels and wind generators for supplying 
+                    clean energy to charge the batteries. </h2>
                 </div>
 
               </div> <!-- overlay background div -->
@@ -363,10 +374,9 @@ let batterySwapSlides = [
                 </div>
 
                 <div>
-                  <h2 id="drone-text" class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                  Nihil voluptate reprehenderit officia quod maxime praesentium excepturi similique 
-                  repellat quam dolorem, illum voluptatibus autem recusandae iste corporis distinctio 
-                  ad, enim hic.</h2>
+                  <h2 id="drone-text" class="subtitle">Clean energy generation, 
+                    unloading, charging, and swapping batteries are fully autonomous, and 
+                    controller by the in-house microcontroller..</h2>
                 </div>
 
               </div> <!-- overlay background div -->
@@ -388,17 +398,29 @@ let batterySwapSlides = [
       <p><br><br></p>
     </div>
     
-    <vueper-slides ref="myVueperSlides" :parallax="parallax" :parallax-fixed-content="parallaxFixedContent"
+    <vueper-slides
       class="no-shadow"
+      vueperslides--animated
+      autoplay
+      :bullets="false"
       :visible-slides="3"
-      :slide-ratio="1 / 4"
-      :dragging-distance="70">
+      :slide-ratio="1 / 5"
+      :dragging-distance="70"
+      :gap="3"
+      >
       <vueper-slide
         v-for="(slide, i) in batterySwapSlides"
         :key="i"
-        :image="slide.image"
-        :title="slide.title"
-        :content="slide.content" />
+        :image="slide.image">
+        <template #content>
+          <!-- <div class="vueperslide__title">
+            <h1 class="title">{{ slide.title }}</h1>
+          </div> -->
+          <div class="vueperslide__content-wrapper">
+            <h1 class="subtitle contentText">{{ slide.content }}</h1>
+          </div>
+        </template>  
+      </vueper-slide>
     </vueper-slides>
   </section>
 
@@ -531,6 +553,25 @@ let batterySwapSlides = [
 
 <style scoped>
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+.vueperslide__content-wrapper{
+  /* moves div to the bottom */
+  padding-top: 50%;
+}
+
+.vueperslide--active {
+  /* TODO: on exit have animation ease out, the issue stems from the sliding **having** to be active */
+  transition: all .7s ease-in-out;
+  transform: scale(1.15);
+  border-radius:15%;
+  border-width: thick 100px;
+  border:#4099ff solid;
+}
+
+.contentText{
+  color: white;
+}
+
 hr{
   width: 50%;
 }
