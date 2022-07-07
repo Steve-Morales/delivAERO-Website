@@ -7,7 +7,7 @@ const phone = ''; // this will hold the value of the phone number
 </script>
 
 <template>
-    <form action="https://formsubmit.co/ruishengwen@gmail.com" method="POST">
+    <form action="https://formsubmit.co/5db54ad00181a723a5a7acb179143409" method="POST">
 
         <div>
             <h1 class="title has-text-centered">
