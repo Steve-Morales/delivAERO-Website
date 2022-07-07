@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-// import '@/../node_modules/Bulma/CSS/bulma.css';
 
 import NavBar from './components/NavBar.vue';
 import ContactForm from './components/ContactForm.vue'
 import Footer from './components/Footer.vue'
 import HomePageSection from './components/HomePageSection.vue'
 
+// browser page title name
 document.title = "delivAERO"
 </script>
 
