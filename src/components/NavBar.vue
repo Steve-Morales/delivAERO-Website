@@ -14,7 +14,7 @@
         <div class="navbar-brand">
             <!-- Note: must add 'https://' otherwise it assumes you are going to page within the website -->
             <a class="level" v-scroll-to="'#contactSection'">
-                <img src=".\..\assets\Logos/121777091_331812758119005_4363361412390698990_n-removebg-preview.png" alt="Aero Logo" width="45" height="15">
+                <img src="/images/Logos/121777091_331812758119005_4363361412390698990_n-removebg-preview.png" alt="Aero Logo" width="45" height="15">
             </a>
         </div>
 

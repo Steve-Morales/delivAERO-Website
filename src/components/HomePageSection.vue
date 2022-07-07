@@ -8,14 +8,14 @@ import 'vueperslides/dist/vueperslides.css';
 import { defineExpose, ref } from 'vue'
 
 /* import assets */
-import droneImg               from '@/assets/Design Pics/Drone/7_0030.png';
-import droneStationImg        from '@/assets/Design Pics/Batery Swap Station/18_0017.png';
-import droneFastImg           from '@/assets/Design Pics/Drone/27_0030.png';
-import droneReliableImg       from '@/assets/Design Pics/Drone/6_0030.png';
-import droneAffordableImg     from '@/assets/Design Pics/Drone/8_0030.png';
-import droneChargeImg         from '@/assets/Design Pics/Batery Swap Station/24_0017.png';
-import droneCleanImg          from '@/assets/Design Pics/Batery Swap Station/BatterySwapStation.jpg';
-import droneAutoImg           from '@/assets/Design Pics/Batery Swap Station/22_0017.png';
+import droneImg               from '/images/Design Pics/Drone/7_0030.png';
+import droneStationImg        from '/images/Design Pics/Batery Swap Station/18_0017.png';
+import droneFastImg           from '/images/Design Pics/Drone/27_0030.png';
+import droneReliableImg       from '/images/Design Pics/Drone/6_0030.png';
+import droneAffordableImg     from '/images/Design Pics/Drone/8_0030.png';
+import droneChargeImg         from '/images/Design Pics/Batery Swap Station/24_0017.png';
+import droneCleanImg          from '/images/Design Pics/Batery Swap Station/BatterySwapStation.jpg';
+import droneAutoImg           from '/images/Design Pics/Batery Swap Station/22_0017.png';
 
 let slides = ([
         {

@@ -13,7 +13,7 @@
 
             <div class="column level-item is-centered level">
                 <div class="level-item">
-                    <img class="image is-64x64" src=".\..\assets\Logos\delivAERO_Logo.png" alt="logo">
+                    <img class="image is-64x64" src="/images/Logos/delivAERO_Logo.png" alt="logo">
                 </div>
             </div>
 
