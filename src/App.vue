@@ -36,7 +36,21 @@ document.title = "delivAERO"
 </template>
 
 <style scoped>
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
 #fill-background{
   background-color: black;
 }
+
+#contact-form{
+  padding-left: 20%;
+  padding-right: 20%;
+  /* background-color: rgb(0, 95, 183); */
+  color: white;
+}
+
+section {
+  background-color: #000;
+}
+
 </style>
