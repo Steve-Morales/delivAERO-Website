@@ -35,25 +35,25 @@
       <div class="column level-item has-text-centered">
         <div>
           <figure class="image is-128x128 is-inline-block">
-            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+            <img class="is-rounded image is-128x128" src="/images/team-pfp/natalie-nguyen.png">
           </figure>
         </div>
         <hr class="is-inline-block">
-        <h1 class="title is-3 white-text">First Last</h1>
+        <h1 class="title is-3 white-text">Natalie Nguyen</h1>
         <br>
         <div>
-          <h1 class="subtitle is-5 white-text is-underlined"><b>Company Role</b></h1>
+          <h1 class="subtitle is-5 white-text is-underlined"><b>Mechanical Engineer</b></h1>
         </div>
         <div>
           <br>
-          <p class="white-text has-text-centered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa similique debitis asperiores ipsam error minima obcaecati eum velit, est dolores, harum rerum cupiditate placeat vel eligendi. Eum, perferendis necessitatibus.</p>
+          <p class="white-text has-text-centered">A second year Mechanical engineering major at the University of California, San Diego. She has much experience in Computer Aided Design in softwares such as Solidworks and is interested in exploring robotics and control systems.</p>
         </div>
       </div>
 
       <div class="column level-item has-text-centered">
         <div>
           <figure class="image is-128x128 is-inline-block">
-            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+            <img class="is-rounded" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fpng-user-icon-circled-user-icon-2240.png&f=1&nofb=1">
           </figure>
         </div>
         <hr class="is-inline-block">
