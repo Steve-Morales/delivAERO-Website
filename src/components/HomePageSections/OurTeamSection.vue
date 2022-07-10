@@ -50,7 +50,7 @@
         </div>
       </div>
 
-      <div class="column level-item has-text-centered">
+      <!-- <div class="column level-item has-text-centered">
         <div>
           <figure class="image is-128x128 is-inline-block">
             <img class="is-rounded" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpluspng.com%2Fimg-png%2Fpng-user-icon-circled-user-icon-2240.png&f=1&nofb=1">
@@ -66,10 +66,10 @@
           <br>
           <p class="white-text has-text-centered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsa similique debitis asperiores ipsam error minima obcaecati eum velit, est dolores, harum rerum cupiditate placeat vel eligendi. Eum, perferendis necessitatibus.</p>
         </div>
-      </div>
+      </div> -->
 
     </div> <!-- END OF ROW OF COLUMNS -->
-
+<!-- 
     <div class="columns level">
       <div class="column level-item has-text-centered">
         <div>
@@ -125,7 +125,7 @@
         </div>
       </div>
 
-    </div> <!-- END OF ROW OF COLUMNS -->
+    </div> END OF ROW OF COLUMNS -->
   </section>
 </template>
 
