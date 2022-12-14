@@ -6,7 +6,9 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/delivAERO-Website/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/delivAero-Website/'
+    : '/'
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
