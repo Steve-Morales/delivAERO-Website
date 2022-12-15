@@ -3,32 +3,38 @@
 import { VueperSlides, VueperSlide } from 'vueperslides';
 import 'vueperslides/dist/vueperslides.css';
 
+import img1 from '/images/Design Pics/Batery Swap Station/BatterySwapStation.jpg'
+import img2 from '/images/Design Pics/Batery Swap Station/23_0017.png'
+import img3 from '/images/Design Pics/Batery Swap Station/26_0017.png'
+import img4 from '/images/Design Pics/Batery Swap Station/18_0017.png'
+import img5 from '/images/Design Pics/Batery Swap Station/2_0017.png'
+
 let batterySwapSlides = [
         {
           title: 'Empty Title',
           content: 'Battery Swap Station',
           // You can also provide a URL for the image.
-          image: '/images/Design Pics/Batery Swap Station/BatterySwapStation.jpg'
+          image: img1
         },
         {
           title: 'Empty Title',
           content: 'Clean Energy Powered',
-          image: '/images/Design Pics/Batery Swap Station/23_0017.png'
+          image: img2
         },
         {
           title: 'Empty Title',
           content: 'Supports Infrastructure',
-          image: '/images/Design Pics/Batery Swap Station/26_0017.png'
+          image: img3
         },
         {
           title: 'Empty Title',
           content: 'Fully Automated',
-          image: '/images/Design Pics/Batery Swap Station/18_0017.png'
+          image: img4
         },
         {
           title: 'Empty Title',
           content: 'Harvests Traffic Energy',
-          image: '/images/Design Pics/Batery Swap Station/2_0017.png'
+          image: img5
         }
 ]
 </script>

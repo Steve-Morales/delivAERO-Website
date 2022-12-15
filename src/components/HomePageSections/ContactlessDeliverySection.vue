@@ -3,42 +3,50 @@
 import { VueperSlides, VueperSlide } from 'vueperslides';
 import 'vueperslides/dist/vueperslides.css';
 
+import img1 from '/images/contactless-delivery/contactless-delivery-1.jpg'
+import img2 from '/images/contactless-delivery/contactless-delivery-2.png'
+import img3 from '/images/Design Pics/Drone/13_0030.png'
+import img4 from '/images/Design Pics/Drone/17_0030.png'
+import img5 from '/images/Design Pics/Drone/29_0030.png'
+import img6 from '/images/Design Pics/Drone/30_0030.png'
+import img7 from '/images/contactless-delivery/contactless-delivery-7.jpg'
+
 let slides = [
         {
           title: 'Empty Title',
           content: 'Packing Factory',
           // You can also provide a URL for the image.
-          image: '/images/contactless-delivery/contactless-delivery-1.jpg'
+          image: img1
         },
         {
           title: 'Empty Title',
           content: 'Loading Packages',
-          image: '/images/contactless-delivery/contactless-delivery-2.png'
+          image: img2
         },
         {
           title: 'Empty Title',
           content: 'Leaving Warehouse',
-          image: '/images/Design Pics/Drone/13_0030.png'
+          image: img3
         },
         {
           title: 'Empty Title',
           content: 'Zooming Through Neighborhood',
-          image: '/images/Design Pics/Drone/17_0030.png'
+          image: img4
         },
         {
           title: 'Empty Title',
           content: 'Approching Customer',
-          image: '/images/Design Pics/Drone/29_0030.png'
+          image: img5
         },
         {
           title: 'Empty Title',
           content: 'Ariving Destination',
-          image: '/images/Design Pics/Drone/30_0030.png'
+          image: img6
         },
         {
           title: 'Empty Title',
           content: 'Packages Delivered',
-          image: '/images/contactless-delivery/contactless-delivery-7.jpg'
+          image: img7
         }
 ]
 </script>
